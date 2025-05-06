@@ -1,0 +1,52 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+*.env
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# PyTorch and HuggingFace caches
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.pth
+*.log
+*.model
+*.tokenizer
+*.config
+*.cache
+*.npz
+*.npy
+
+# Transformers cache
+~/.cache/huggingface/
+~/.huggingface/
+
+# Dataset outputs
+applicants_updated.csv
+X_final.npy
+y_final.npy
+
+# Model output
+bert_loan_default_model/
+
+# Ignore all CSV files
+*.csv
